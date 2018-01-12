@@ -30,7 +30,7 @@ module.exports = function (app) {
             //   for(var index = 0; index < friends[i].scores.length; index++) {
             //     var differenceOneScore = Math.abs(friends[i].scores[index] - newFriend.scores[index]);
             //     totalDiff += differenceOneScore;
-            //   }
+              }
       
             // add new friend from survey array
             friends.push(newFriend);
