@@ -1,14 +1,33 @@
-* {
-    
-}
-.wrapper {
+/* * {
+    margin: auto;
+    box-sizing: border-box;
+}  */
+/* .panel-body {
+    background-color: rgb(48, 47, 47);
     width: 960px;
-    /* margin-right: 500px;
-    margin-left: 500px; */
-}
+    margin: 0 auto;
+} 
+
 .jumbotron {
     text-align: center;
 }
-.panel-body {
 
+.answers {
+    padding-left: 25px;
 }
+.title {
+    color: white;
+}
+.question {
+    background-color: darkcyan;
+    width:95%;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-bottom:20px;
+}
+#submit-btn {
+    margin-top: 10px;
+}
+.welcome {
+    border-top:2px darkcyan;
+} */

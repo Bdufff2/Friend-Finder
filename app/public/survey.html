@@ -18,276 +18,221 @@
     <div class="wrapper">
         <!-- <div class="container"> -->
         <div class="jumbotron">
-            <h1>Hello, world!</h1>
-            <p>...</p>
-            <p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
+            <h1>Welcome Friends!</h1>
         </div>
         <!-- </div> -->
 
         <div class="panel-body">
+            <h3 class="title">About You</h3>
             <div class="user-data">
-                <h3>About You</h3>
-                <h4>
+                <h4 class="title">
                     <strong>Name</strong>
                 </h4>
                 <input type="text" class="form-control" id="user-name" placeholder="Input full name">
-                <h4>
+                <h4 class="title">
                     <strong>Photo</strong>
                 </h4>
                 <input type="text" class="form-control" id="user-photo" placeholder="Link to image">
             </div>
+            <h3 class="title">Q&ampA</h3>
             <form id="user-survey">
                 <!-- Question 1 -->
                 <div class="question" id="q1">
-                    <h4>
+                    <h4 class="title">
                         <strong>1. You value friends that have big ambitions.</strong>
                     </h4>
-                    <div class="answers">
-                        <label class="radio">
-                            <input type="radio" name="RadioOptions" id="q1-1" value="option1"> 1 (Strongly Disagree)
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="RadioOptions" id="q1-2" value="option2"> 2
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="RadioOptions" id="q1-3" value="option3"> 3
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="RadioOptions" id="q1-4" value="option4"> 4
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="RadioOptions" id="q1-5" value="option5"> 5 (Strongly Agree)
-                        </label>
+                    <div class="answers" id="answers-q1">
+                        <select data-placeholder="" class="chosen-select" id="q1">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
                     </div>
                 </div>
                 <br>
                 <!-- Question 2 -->
                 <div class="question" id="q2">
-                    <h4>
+                    <h4 class="title">
                         <strong>2. You like people who will challenge the way you think.</strong>
                     </h4>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio1" value="option1"> 1 (Strongly Disagree)
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio2" value="option2"> 2
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio3" value="option3"> 3
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio4" value="option4"> 4
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio5" value="option5"> 5 (Strongly Agree)
-                    </label>
+                    <div class="answers" id="answers-q2">
+                        <select data-placeholder="" class="chosen-select" id="q2">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
                 </div>
                 <br>
                 <!-- Question 3 -->
                 <div class="question" id="q3">
-                    <h4>
+                    <h4 class="title">
                         <strong>3. You want a friend who's always up for an adventure.</strong>
                     </h4>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio1" value="option1"> 1 (Strongly Disagree)
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio2" value="option2"> 2
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio3" value="option3"> 3
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio4" value="option4"> 4
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio5" value="option5"> 5 (Strongly Agree)
-                    </label>
+                    <div class="answers" id="answers-q3">
+                        <select data-placeholder="" class="chosen-select" id="q3">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
                 </div>
                 <br>
                 <!-- Question 4 -->
                 <div class="question" id="q4">
-                    <h4>
+                    <h4 class="title">
                         <strong>4. Others would say you have a strong personality.</strong>
                     </h4>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio1" value="option1"> 1 (Strongly Disagree)
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio2" value="option2"> 2
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio3" value="option3"> 3
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio4" value="option4"> 4
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio5" value="option5"> 5 (Strongly Agree)
-                    </label>
+                    <div class="answers" id="answers-q4">
+                        <select data-placeholder="" class="chosen-select" id="q4">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
                 </div>
                 <br>
                 <!-- Question 5 -->
                 <div class="question" id="q5">
-                    <h4>
+                    <h4 class="title">
                         <strong>5. You consider yourself more of a home-body.</strong>
                     </h4>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio1" value="option1"> 1 (Strongly Disagree)
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio2" value="option2"> 2
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio3" value="option3"> 3
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio4" value="option4"> 4
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio5" value="option5"> 5 (Strongly Agree)
-                    </label>
+                    <div class="answers" id="answers-q5">
+                        <select data-placeholder="" class="chosen-select" id="q5">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
                 </div>
                 <br>
                 <!-- Question 6 -->
                 <div class="question" id="q6">
-                    <h4>
+                    <h4 class="title">
                         <strong>6. You believe in always doing the right thing.</strong>
                     </h4>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio1" value="option1"> 1 (Strongly Disagree)
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio2" value="option2"> 2
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio3" value="option3"> 3
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio4" value="option4"> 4
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio5" value="option5"> 5 (Strongly Agree)
-                    </label>
+                    <div class="answers" id="answers-q6">
+                        <select data-placeholder="" class="chosen-select" id="q6">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
                 </div>
                 <br>
                 <!-- Question 7 -->
                 <div class="question" id="q7">
-                    <h4>
+                    <h4 class="title">
                         <strong>7. You would rather live in a big city than in the country.</strong>
                     </h4>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio1" value="option1"> 1 (Strongly Disagree)
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio2" value="option2"> 2
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio3" value="option3"> 3
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio4" value="option4"> 4
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio5" value="option5"> 5 (Strongly Agree)
-                    </label>
+                    <div class="answers" id="answers-q7">
+                        <select data-placeholder="" class="chosen-select" id="q7">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
                 </div>
                 <br>
                 <!-- Question 8 -->
                 <div class="question" id="q8">
-                    <h4>
+                    <h4 class="title">
                         <strong>8. You would enjoy life on the road.</strong>
                     </h4>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio1" value="option1"> 1 (Strongly Disagree)
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio2" value="option2"> 2
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio3" value="option3"> 3
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio4" value="option4"> 4
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio5" value="option5"> 5 (Strongly Agree)
-                    </label>
+                    <div class="answers" id="answers-q8">
+                        <select data-placeholder="" class="chosen-select" id="q8">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
                 </div>
                 <br>
                 <!-- Question 9 -->
                 <div class="question" id="q9">
-                    <h4>
+                    <h4 class="title">
                         <strong>9. In your friendships you value loyalty.</strong>
                     </h4>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio1" value="option1"> 1 (Strongly Disagree)
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio2" value="option2"> 2
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio3" value="option3"> 3
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio4" value="option4"> 4
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio5" value="option5"> 5 (Strongly Agree)
-                    </label>
+                    <div class="answers" id="answers-q9">
+                        <select data-placeholder="" class="chosen-select" id="q9">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
                 </div>
+
                 <br>
                 <!-- Question 10 -->
                 <div class="question" id="q10">
-                    <h4>
+                    <h4 class="title">
                         <strong>10. You want to be king.</strong>
                     </h4>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio1" value="option1"> 1 (Strongly Disagree)
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio2" value="option2"> 2
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio3" value="option3"> 3
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio4" value="option4"> 4
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="RadioOptions" id="Radio5" value="option5"> 5 (Strongly Agree)
-                    </label>
+                    <div class="answers" id="answers-q10">
+                        <select data-placeholder="" class="chosen-select" id="q10">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
                 </div>
-
-                <br>
-
                 <button type="submit" id="submit" class="btn btn-primary">Submit</button>
             </form>
-
         </div>
-        <!-- Modal -->
-        <div id="resultsModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">X</button>
-                        <h2 class="modal-title">
-                            <strong>Checkout Your Match!</strong>
-                        </h2>
-                    </div>
-                    <div class="modal-body">
-                        <h2 id="matchName"></h2>
-                        <img id="matchImg" src="" alt="" height="350" width="300">
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" id="closeModal" data-dismiss="modal">Close</button>
-                    </div>
+        <br>
+
+    </div>
+    <!-- Modal -->
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    <h2 class="modal-title">
+                        <strong>Checkout Your Match!</strong>
+                    </h2>
                 </div>
-
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchImg" src="" alt="" height="350" width="300">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" id="closeModal" data-dismiss="modal">Close</button>
+                </div>
             </div>
+
         </div>
+    </div>
     </div>
 </body>
 <!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS LOADED FROM OUR SERVER -->
@@ -299,11 +244,26 @@
         var userInfo = {
             name: $("#user-name").val.trim(),
             photo: $("user-photo").val.trim(),
-            scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()];
+            scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
         }
 
-
+        // need modal logic
+        $.post(currentURL + "/api/friends", userData, function (data) {
+            // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+            $("#matchName").text(data.name);
+            $('#matchImg').attr("src", data.photo);
+            // Show the modal with the best match
+            $("#resultsModal").modal('toggle');
+            // clear the input fields in the form
+            $("#name").val("");
+            $("#photo").val("");
+        });
     });
+    $('#closeModal').click(function() {
+    $.get('/',function(req,res){
+    location.replace(res);
+    })
+});
 
 </script>
 
